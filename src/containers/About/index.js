@@ -17,12 +17,14 @@ const About = ({ aos }) => {
     "Typescript",
     "React JS",
     "Next Js",
-    "Redux Toolkit",
+    "Context API",
+    "REST API",
   ];
+  const comfyStack = ["Redux Toolkit", "GraphQl", "Wordpress", "Figma"];
   const [imgHover, setImgHover] = useState(false);
 
-  const displayStackList = () => {
-    return stack.map((each, i) => (
+  const displayStackList = (list) => {
+    return list.map((each, i) => (
       <div className="stack-list" key={i}>
         <span>
           <BsCaretRight />
@@ -53,7 +55,9 @@ const About = ({ aos }) => {
             application.
           </p>
           <p>Below is the list of the technologies I use:</p>
-          <div className="my-stack">{displayStackList()}</div>
+          <div className="my-stack">{displayStackList(stack)}</div>
+          <p>I can also work with:</p>
+          <div className="my-stack">{displayStackList(comfyStack)}</div>
         </div>
         <div
           className="wrapper"

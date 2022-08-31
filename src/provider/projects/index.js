@@ -1,64 +1,78 @@
-import mmc from "../../assets/mmc.png";
-import buymore from "../../assets/buymore.png";
-import countries from "../../assets/countries.png";
+import event from "assets/event_management.jpg";
+import officialWeb from "assets/official_websites.jpg";
+import finance from "assets/finance_cms.jpg";
+import wordly from "assets/wordly.jpg";
 
 const Projects = [
   {
     id: 1,
-    title: "MMC Mentorship Web App",
+    title: "Official Websites for Various Organizations",
     details:
-      "A web app for an annual mentorship programme with React.js, AntDesign, Node.js, Express.js and many more.",
-    tools: "React.js Redux ReactStrap AntDesign Node.js Express PostgreSQL",
+      "Contributed to the development of numerous websites for local and international organizations. Collaborated with teams and individually as well to ship robust applications to production and improve online presence for businesses and organizations",
+    tools: "React.js Next.js SCSS CSS REST API",
     repo: null,
     url: null,
-    img: mmc,
-    featured: true,
-  },
-  {
-    id: 2,
-    title: "E-commerce Web App (BuyMore)",
-    details:
-      "An e-commerce full-stack web application with the MERN stack. The backend API's implement all the CRUD operations on the various endpoints. It implements JSON Web Token (JWT) to pass identity of authenticated users",
-    tools: "React.js CSS Node.js Express.js MongoDB",
-    repo: "https://github.com/LaxAce/buymore",
-    url: "https://buymore.netlify.app/",
-    img: buymore,
+    img: officialWeb,
     featured: false,
   },
   {
-    id: 3,
-    title: "Where In The World",
+    id: 2,
+    title: "1st ICEECE & AMF Management Application",
     details:
-      "A go-to web application for informative details about all the countries in the world. It has a theme-changing feature for sight well-being, a quick search by name, and a region filter. ReactJS and CSS3 were utilized for the development.",
-    tools: "React.js CSS",
-    repo: "https://github.com/LaxAce/countryAPI",
-    url: "https://countrydet.netlify.app/",
-    img: countries,
+      "An application to manage the events of the 1st ICEECE & AMF in UniIbadan. Built with EJS, Bootstrap, Node.js, Express.js and many more.",
+    tools: "HTML CSS EJS Bootstrap Node.js Express",
+    repo: null,
+    url: null,
+    img: event,
+    featured: true,
+  },
+
+  {
+    id: 3,
+    title: "Finance Software With Access Management",
+    details:
+      "A Robust financial software harnessing Data Science technologies to provide intelligent insights, with user and content management features and authorization",
+    tools: "React.js, SCSS, Context API",
+    repo: null,
+    url: null,
+    img: finance,
     featured: false,
   },
   {
     id: 4,
-    title: "Dictionary",
+    title: "Wordly Dictionary App",
     details:
-      "A dictionary web application with auto suggestion. It uses Datamuse, random-words-api.vercel.app and api.dictionaryapi.dev/ as backend resources",
-    tools: "React.js CSS Context API",
-    repo: "https://github.com/LaxAce/dictionary",
-    url: "https://acediction.netlify.app/",
-    img: null,
+      "A very uesful app to check unique words and their definitions upon loading the app and by searching. Built with React.js and styled with scss with an awesome user Interface. Merges multiple APIs to provide a good experience",
+    tools: "React.js SCSS",
+    repo: "https://github.com/reedwane/wordly",
+    url: "https://wordly-world.netlify.app/",
+    img: wordly,
     featured: false,
   },
   {
     id: 5,
-    title: "Admin Panel Frontend",
-    details: "User management with registration and authentication.",
-    tools: "React.js Bootstrap",
-    repo: "https://github.com/LaxAce/admin-panel-fe",
-    url: "https://ilearning3.netlify.app/",
+    title: "Countries App",
+    details:
+      "Want to find out basic details about the countries of the world? This App lays out the various countries of the world and interesting details you'd like to know about them.",
+    tools: "React.js CSS",
+    repo: "https://mern-countries-reed.netlify.app/",
+    url: "https://github.com/reedwane/mern-countries-app",
     img: null,
     featured: false,
   },
   {
     id: 6,
+    title: "Space Tourism Website",
+    details:
+      "A multi-page, dynamic and space-themed website. Developed the project to excellently resemble the Figma designs with React Js and styled with SCSS. Built fully responsive (mobile-first)",
+    tools: "React.js Context API SCSS",
+    repo: "https://github.com/reedwane/space-tourism",
+    url: "https://space-tourism-reed.netlify.app/",
+    img: null,
+    featured: false,
+  },
+  {
+    id: 7,
     title: "USer Dashboard",
     details: "A dashboard for user management",
     tools: "React.js Redux",
@@ -68,7 +82,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Admin Panel Backend",
     details:
       "User management with registration and authentication. Non-authenticated users can not have access to the user management (admin panel). Authenticated users has access to the user management table: id, name, e-mail, last login time, registration time, status (active/blocked). With Documentation published on postman docs.",
@@ -79,7 +93,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Newcore Landing page clone",
     details:
       "A  landing page with different sections, this application was designed in raw Javascript (no libraries), HTML, and CSS. It manipulates DOM elements and relies on event handling",
@@ -90,7 +104,7 @@ const Projects = [
     featured: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "Restful API With Node.js",
     details:
       "A restful API built to provide important information about the countries in the world, with various endpoints. Uses NodeJS (Express) and MongoDB as the database",

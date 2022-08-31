@@ -1,12 +1,12 @@
 import "./index.css";
 
 // Component
-import Header from "../../components/Header";
-import MajorProject from "../../components/MajorProject";
-import OtherProject from "../../components/OtherProject";
+import Header from "components/Header";
+import MajorProject from "components/MajorProject";
+import OtherProject from "components/OtherProject";
 
 // Provider
-import Projects from "../../provider/projects";
+import Projects from "provider/projects";
 
 const WorkedOn = ({ aos }) => {
   return (
@@ -17,7 +17,7 @@ const WorkedOn = ({ aos }) => {
         <div className="major-project">
           {Projects.map(
             (project) =>
-              project.id < 4 && (
+              project.id < 5 && (
                 <MajorProject project={project} key={project.id} />
               )
           )}
@@ -28,7 +28,7 @@ const WorkedOn = ({ aos }) => {
         <div className="other-project">
           {Projects.map(
             (project) =>
-              project.id > 3 && (
+              project.id > 5 && (
                 <OtherProject project={project} key={project.id} />
               )
           )}
