@@ -28,7 +28,7 @@ const WorkedOn = ({ aos }) => {
         <div className="other-project">
           {Projects.map(
             (project) =>
-              project.id > 5 && (
+              project.id > 4 && (
                 <OtherProject project={project} key={project.id} />
               )
           )}
