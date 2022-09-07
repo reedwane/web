@@ -1,6 +1,7 @@
 import "./index.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import { useState } from "react";
 
 // Asset
 import resume from "../../assets/resume.pdf";

@@ -1,5 +1,4 @@
 import "./index.css";
-import { useEffect } from "react";
 import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 
 // Components
@@ -12,7 +11,7 @@ const Hero = ({ aos }) => {
       <div data-aos={aos} className="hero-body">
         <div className="body-wrapper">
           <h4>Welcome, I am</h4>
-          <h1>Ridwan Abdulkareem.</h1>
+          <h1>Ridwan Gboyega Abdulkareem.</h1>
           <h2>I develop amazing things for the web</h2>
           <p>
             I am a web developer passionate about making impact and creating
