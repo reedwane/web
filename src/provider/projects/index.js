@@ -8,7 +8,7 @@ const Projects = [
     id: 1,
     title: "Official Websites for Various Organizations",
     details:
-      "Contributed to the development of numerous websites for local and international organizations. Collaborated with teams and individually as well to ship robust applications to production and improve online presence for businesses and organizations",
+      "Contributed to the development of numerous websites for local and international organizations.  Collaborated with teams and also worked  individually to ship robust applications to production and improve online presence for businesses and organizations",
     tools: "React.js Next.js SCSS CSS REST API",
     repo: null,
     url: null,

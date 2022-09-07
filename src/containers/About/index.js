@@ -20,7 +20,13 @@ const About = ({ aos }) => {
     "Context API",
     "REST API",
   ];
-  const comfyStack = ["Redux Toolkit", "GraphQl", "Wordpress", "Figma"];
+  const comfyStack = [
+    "Material UI",
+    "Redux Toolkit",
+    "GraphQl",
+    "Wordpress",
+    "Figma",
+  ];
   const [imgHover, setImgHover] = useState(false);
 
   const displayStackList = (list) => {
@@ -56,7 +62,7 @@ const About = ({ aos }) => {
           </p>
           <p>Below is the list of the technologies I use:</p>
           <div className="my-stack">{displayStackList(stack)}</div>
-          <p>I can also work with:</p>
+          <p>I have also worked with:</p>
           <div className="my-stack">{displayStackList(comfyStack)}</div>
         </div>
         <div
