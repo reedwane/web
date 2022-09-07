@@ -1,5 +1,4 @@
 import "./index.css";
-import { useState, useEffect } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -44,15 +43,15 @@ const navItems = (handleLink) => (
 );
 
 const Navbar = () => {
-  const [navModal, setNavModal] = useState(false);
-  const [active, setActive] = useState(false);
-  const [yMovement, setYMovement] = useState(0);
-  const [scrollingUp, setScrollingUp] = useState(true);
-  const [position, setPosition] = useState(null);
-  const [scrolledToTop, setScrolledToTop] = useState(true);
-  const [className, setClassName] = useState("navbar remove");
-  const [y, setY] = useState(0);
-  const [direct, setDirect] = useState(null);
+  // const [navModal, setNavModal] = useState(false);
+  // const [active, setActive] = useState(false);
+  // const [yMovement, setYMovement] = useState(0);
+  // const [scrollingUp, setScrollingUp] = useState(true);
+  // const [position, setPosition] = useState(null);
+  // const [scrolledToTop, setScrolledToTop] = useState(true);
+  // const [className, setClassName] = useState("navbar remove");
+  // const [y, setY] = useState(0);
+  // const [direct, setDirect] = useState(null);
 
   // const handleScroll = () => {
   //     setScrolledToTop(window.pageYOffset < 50);
