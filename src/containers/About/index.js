@@ -55,9 +55,9 @@ const About = ({ aos }) => {
           <p>
             My journey into the technology space started on a different route,
             but I have liked working on web applications more ever since. I
-            appreciate the endless list of use-cases, and my goal is to keep
+            appreciate the endless list of use cases, and my goal is to keep
             building projects that provide the best experience for users, while
-            maintaing accessibility and being robust in the diverse areas of
+            maintaining accessibility and being robust in the diverse areas of
             application.
           </p>
           <p>Below is the list of the technologies I use:</p>
