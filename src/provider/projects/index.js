@@ -29,9 +29,9 @@ const Projects = [
 
   {
     id: 3,
-    title: "Finance Software With Access Management",
+    title: "FinTech Software leveraging on Machine learning Technologies",
     details:
-      "A Robust financial software harnessing Data Science technologies to provide intelligent insights, with user and content management features and authorization",
+      "A Robust fintech software harnessing Data Science technologies for an organization to provide intelligent insights, with user and content management features and authorization",
     tools: "React.js, SCSS, Context API",
     repo: null,
     url: null,
