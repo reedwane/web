@@ -43,8 +43,8 @@ const navItems = (handleLink) => (
 );
 
 const Navbar = () => {
-  // const [navModal, setNavModal] = useState(false);
-  // const [active, setActive] = useState(false);
+  const [navModal, setNavModal] = useState(false);
+  const [active, setActive] = useState(false);
   // const [yMovement, setYMovement] = useState(0);
   // const [scrollingUp, setScrollingUp] = useState(true);
   // const [position, setPosition] = useState(null);
