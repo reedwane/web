@@ -49,16 +49,16 @@ const Projects = [
     img: wordly,
     featured: false,
   },
-  {
-    id: 9,
-    title: "Past Portfolio Page",
-    details: "My previous website showcasing my skillset and projects",
-    tools: "HTML CSS JavaScript",
-    repo: "https://github.com/reedwane/reed-portfolio",
-    url: "https://reed-projects-portfolio.netlify.app/",
-    img: null,
-    featured: false,
-  },
+  // {
+  //   id: 9,
+  //   title: "Past Portfolio Page",
+  //   details: "My previous website showcasing my skillset and projects",
+  //   tools: "HTML CSS JavaScript",
+  //   repo: "https://github.com/reedwane/reed-portfolio",
+  //   url: "https://reed-projects-portfolio.netlify.app/",
+  //   img: null,
+  //   featured: false,
+  // },
   {
     id: 5,
     title: "Space Tourism Website",
@@ -105,7 +105,7 @@ const Projects = [
   },
 
   {
-    id: 10,
+    id: 9,
     title: "Restful API With Node.js",
     details:
       "Built on the REST COUNTRIES DataBase, this app is a restful API built to provide important information about the countries in the world. Uses NodeJS (Express) and MongoDB as the database",
