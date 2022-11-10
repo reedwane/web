@@ -4,7 +4,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
 // Asset
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/Ridwan_Gboyega_Abdulkareem.pdf";
 
 const navItems = (handleLink) => (
   <>
@@ -46,49 +46,6 @@ const navItems = (handleLink) => (
 const Navbar = () => {
   const [navModal, setNavModal] = useState(false);
   const [active, setActive] = useState(false);
-  // const [yMovement, setYMovement] = useState(0);
-  // const [scrollingUp, setScrollingUp] = useState(true);
-  // const [position, setPosition] = useState(null);
-  // const [scrolledToTop, setScrolledToTop] = useState(true);
-  // const [className, setClassName] = useState("navbar remove");
-  // const [y, setY] = useState(0);
-  // const [direct, setDirect] = useState(null);
-
-  // const handleScroll = () => {
-  //     setScrolledToTop(window.pageYOffset < 50);
-  // };
-
-  // console.log('Top',scrolledToTop);
-
-  // useEffect(() => {
-
-  //     window.addEventListener('scroll', handleScroll);
-
-  //     return () => {
-  //       window.removeEventListener('scroll', handleScroll);
-  //     };
-  // }, []);
-
-  // const handleNavigation = (e) => {
-  //     const window = e.currentTarget;
-  //     if (yMovement > window.scrollY) {
-  //         console.log('up');
-  //         setScrollingUp(true)
-  //     } else if (yMovement < window.scrollY) {
-  //         console.log('down');
-  //         setScrollingUp(false)
-  //     }
-  //     setYMovement(window.scrollY);
-  // };
-
-  // useEffect(() => {
-
-  //     setYMovement(window.scrollY);
-
-  //     window.addEventListener("scroll", (e) => handleNavigation(e));
-
-  //     window.addEventListener("mousemove", getMouseDirection, false);
-  // }, [yMovement]);
 
   const handleModal = () => {
     setNavModal(!navModal);
