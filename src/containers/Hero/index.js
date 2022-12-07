@@ -20,10 +20,7 @@ const Hero = ({ aos }) => {
             </span>
           </h2>
           <p>
-            I am passionate about making impact and creating solutions through
-            technology. I have collaborated with different teams and
-            organizations in contributing to excellent product development,
-            building websites and apps that gives businesses the ultimate edge.
+            I am passionate about making an impact and creating solutions through technology. I have collaborated with different teams and organizations in contributing to excellent product development, and building websites and apps that give businesses the ultimate edge.
             I will be glad to take on your amazing project too!
           </p>
           <a href="mailto:ridwangboyega.ak@gmail.com" className="btn btn-hero">
