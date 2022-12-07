@@ -1,6 +1,20 @@
 import "./index.css";
 import { useState } from "react";
-import { BsCaretRight } from "react-icons/bs";
+import {
+  SiMaterialui,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+import { RiReactjsLine, RiApps2Fill } from "react-icons/si";
+import {
+  FaCss3,
+  FaFigma,
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaSass,
+} from "react-icons/fa";
 
 // Asset
 import myImage from "../../assets/my_picture.webp";
@@ -10,22 +24,20 @@ import Header from "../../components/Header";
 
 const About = ({ aos }) => {
   const stack = [
-    "HTML",
-    "CSS",
-    "SCSS",
-    "JavaScript  (ES6+)",
-    "Typescript",
-    "React JS",
-    "Next Js",
-    "Context API",
-    "REST API",
+    { name: "HTML", icon: FaHtml5 },
+    { name: "CSS", icon: FaCss3 },
+    { name: "SCSS", icon: FaSass },
+    { name: "JavaScript  (ES6+)", icon: FaJs },
+    { name: "Typescript", icon: SiTypescript },
+    { name: "React JS", icon: FaReact },
+    { name: "Next Js", icon: SiNextdotjs },
+    { name: "Context API", icon: RiApps2Fill },
+    { name: "React Query", icon: RiReactjsLine },
   ];
   const comfyStack = [
-    "Material UI",
-    "Redux Toolkit",
-    "GraphQl",
-    "Wordpress",
-    "Figma",
+    { name: "Material UI", icon: SiMaterialui },
+    { name: "Tailwind", icon: SiTailwindcss },
+    { name: "Figma", icon: FaFigma },
   ];
   const [imgHover, setImgHover] = useState(false);
 
@@ -33,9 +45,9 @@ const About = ({ aos }) => {
     return list.map((each, i) => (
       <div className="stack-list" key={i}>
         <span>
-          <BsCaretRight />
+          <each.icon />
         </span>
-        <p>{each}</p>
+        <p>{each.name}</p>
       </div>
     ));
   };
@@ -46,19 +58,12 @@ const About = ({ aos }) => {
       <div className="about-body">
         <div className="about-content">
           <p>
-            Hi there! I am Ridwan. I am fascinated and interested in developing
-            software solutions that make businesses thrive and users happy. I am
-            naturally concerned about the wellbeing of others, I enjoy
-            interesting challenges and being able to solve them, and I am
-            committed to learning as ever
-          </p>
-          <p>
-            My journey into the technology space started on a different route,
-            but I have liked working on web applications more ever since. I
-            appreciate the endless list of use cases, and my goal is to keep
-            building projects that provide the best experience for users, while
-            maintaining accessibility and being robust in the diverse areas of
-            application.
+            I embraced working on web applications shortly after I started my
+            journey in the tech space. I have evolved into a professional front
+            end developer ever since, honing my skills from the various
+            applications I have contributed to building, and my goal is to keep
+            building accessible, robust and diverse projects that provide the
+            best experience for businesses and users.
           </p>
           <p>Below is the list of the technologies I use:</p>
           <div className="my-stack">{displayStackList(stack)}</div>

@@ -14,10 +14,11 @@ const Hero = ({ aos }) => {
           <h1>Ridwan Gboyega Abdulkareem.</h1>
           <h2>I develop amazing things for the web</h2>
           <p>
-            I am a web developer passionate about making impact and creating
-            solutions through technology. I have collaborated with different
-            teams and organizations, and I am focused on developing products
-            that provide outstanding experiences and are accessible to users.
+            I am passionate about making impact and creating solutions through
+            technology. I have collaborated with different teams and
+            organizations in contributing to excellent product development,
+            building websites and apps that gives businesses the ultimate edge.
+            I will be glad to take on your amazing project too!
           </p>
           <a href="mailto:ridwangboyega.ak@gmail.com" className="btn btn-hero">
             Send a Message
