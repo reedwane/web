@@ -1,4 +1,4 @@
-import "./index.css";
+import "./index.scss";
 import { useState } from "react";
 import {
   SiMaterialui,
@@ -6,7 +6,7 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import { RiReactjsLine, RiApps2Fill } from "react-icons/si";
+import { RiReactjsLine, RiApps2Fill } from "react-icons/ri";
 import {
   FaCss3,
   FaFigma,
@@ -24,15 +24,15 @@ import Header from "../../components/Header";
 
 const About = ({ aos }) => {
   const stack = [
-    { name: "HTML", icon: FaHtml5 },
-    { name: "CSS", icon: FaCss3 },
-    { name: "SCSS", icon: FaSass },
-    { name: "JavaScript  (ES6+)", icon: FaJs },
-    { name: "Typescript", icon: SiTypescript },
     { name: "React JS", icon: FaReact },
     { name: "Next Js", icon: SiNextdotjs },
     { name: "Context API", icon: RiApps2Fill },
     { name: "React Query", icon: RiReactjsLine },
+    { name: "JavaScript  (ES6+)", icon: FaJs },
+    { name: "Typescript", icon: SiTypescript },
+    { name: "SCSS", icon: FaSass },
+    { name: "HTML", icon: FaHtml5 },
+    { name: "CSS", icon: FaCss3 },
   ];
   const comfyStack = [
     { name: "Material UI", icon: SiMaterialui },
@@ -45,7 +45,7 @@ const About = ({ aos }) => {
     return list.map((each, i) => (
       <div className="stack-list" key={i}>
         <span>
-          <each.icon />
+          <each.icon size={25} />
         </span>
         <p>{each.name}</p>
       </div>

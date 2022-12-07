@@ -3,6 +3,7 @@ import { FiGithub, FiTwitter, FiLinkedin } from "react-icons/fi";
 
 // Components
 import Navbar from "../../components/Navbar";
+import { FaLaptopCode } from "react-icons/fa";
 
 const Hero = ({ aos }) => {
   return (
@@ -12,7 +13,12 @@ const Hero = ({ aos }) => {
         <div className="body-wrapper">
           <h4>Welcome, I am</h4>
           <h1>Ridwan Gboyega Abdulkareem.</h1>
-          <h2>I develop amazing things for the web</h2>
+          <h2>
+            I develop amazing things for the web{" "}
+            <span>
+              <FaLaptopCode size={50} />
+            </span>
+          </h2>
           <p>
             I am passionate about making impact and creating solutions through
             technology. I have collaborated with different teams and

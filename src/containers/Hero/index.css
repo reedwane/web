@@ -37,7 +37,7 @@
 .hero p {
   font-size: 1.6rem;
   line-height: 2.34rem;
-  color: var(--slate);
+  color: var(--lightest-slate);
   margin-top: 2rem;
 }
 

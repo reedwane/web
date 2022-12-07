@@ -3,17 +3,20 @@
 }
 
 .about-section p {
-  color: var(--slate);
+  color: var(--white);
   margin-bottom: 2rem;
 }
 
 .about-section .my-stack {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about-section .stack-list p {
   font-size: 1.3rem;
+  margin: 0;
 }
 
 .about-section .stack-list {
@@ -23,14 +26,15 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 1.5rem;
   color: var(--slate);
   height: 3rem;
 }
 
 .about-section span {
   color: var(--green);
-  margin-bottom: 1.6rem;
-  margin-right: 1.6rem;
+  // margin-bottom: 1.6rem;
+  // margin-right: 1.6rem;
 }
 
 .about-section .wrapper {

@@ -10,23 +10,43 @@ const Experience = [
       {
         id: 1,
         details:
-          "Developed robust applications for AI lab projects helping businesses leverage on data engineering.",
+          "Developed robust applications for AI lab projects aimed at helping businesses leverage data science technologies with React Js and other latest front-end development technologies.",
       },
       {
         id: 2,
         details:
-          "Resolved issues on the frontend of a Content Management System Application for an affiliate company to get the website to production within the target deadline.",
+          "Built and contributed to developing full-fledged, dynamic, and responsive websites for various clients with Next Js.",
       },
       {
         id: 3,
         details:
-          "Carried out robust research on user experience for application prototypes.",
+          "Worked with backend engineers and project managers to ensure smooth API integration with frontend applications.",
       },
     ],
     contract: "Contract",
   },
   {
     id: 2,
+    title: "Front End Developer",
+    company: "Barnaamaj",
+    url: null,
+    startDate: "November 2022",
+    endDate: "Present",
+    tasks: [
+      {
+        id: 1,
+        details: "Built components for the startup waitlist.",
+      },
+      {
+        id: 2,
+        details:
+          "Collaborated with backend engineers and project managers during development.",
+      },
+    ],
+    contract: "Part-time",
+  },
+  {
+    id: 3,
     title: "Frontend Developer",
     company: null,
     url: "",

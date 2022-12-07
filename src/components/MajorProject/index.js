@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import Aos from "aos";
 
-const MajorProject = ({ project }) => {
-  const { title, id, url, img, repo, tools, details } = project;
+const MajorProject = ({ project, id }) => {
+  const { title, url, img, repo, tools, details } = project;
 
   const majorCardBackground = (project) => {
     return {

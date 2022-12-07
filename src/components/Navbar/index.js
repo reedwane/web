@@ -37,7 +37,12 @@ const navItems = (handleLink) => (
         </a>
       </li>
     </ul>
-    <a href={resume} className="btn btn-resume">
+    <a
+      href={resume}
+      target="_blank"
+      rel="noreferrer"
+      className="btn btn-resume"
+    >
       Resume
     </a>
   </>

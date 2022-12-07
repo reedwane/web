@@ -2,37 +2,36 @@ import event from "assets/event_management.jpg";
 import officialWeb from "assets/official_websites.jpg";
 import finance from "assets/finance_cms.jpg";
 import wordly from "assets/wordly.jpg";
+import mbz from "assets/mbz.png";
+import barnaamaj from "assets/barnaamaj.jfif";
 
 const Projects = [
   {
-    id: 1,
-    title: "Official Websites for Various Organizations",
+    title: "MSSN B-ZONE Website",
     details:
-      "Contributed to the development of numerous websites for local and international organizations.  Collaborated with teams and also worked  individually to ship robust applications to production and improve online presence for businesses and organizations",
-    tools: "React.js Next.js SCSS CSS REST API",
+      "Worked on the development of the official website for MSSN B-Zone, one of the largest student organizations in Nigeria.",
+    tools: "React.js, Next.js, SCSS, CSS, REST API",
     repo: null,
-    url: null,
-    img: officialWeb,
+    url: "https://mssnbzone.org/",
+    img: mbz,
     featured: false,
   },
   {
-    id: 2,
-    title: "1st ICEECE & AMF Management Application",
+    title: "Barnaamaj",
     details:
-      "An application to manage the events of the 1st ICEECE & AMF in UniIbadan. Built with EJS, Bootstrap, Node.js, Express.js and many more.",
-    tools: "HTML CSS EJS Bootstrap Node.js Express",
+      "A startup dedicated to facilitating affordable and seamless processes for Muslims to travel for Hajj & Umrah.",
+    tools: "Next.js, CSS, Tailwind CSS, Styled Components, REST API",
     repo: null,
-    url: null,
-    img: event,
-    featured: true,
+    url: "https://www.barnaamaj.com/",
+    img: barnaamaj,
+    featured: false,
   },
-
   {
-    id: 3,
+    id: 1,
     title: "FinTech Software leveraging on Machine learning Technologies",
     details:
       "A Robust fintech software harnessing Data Science technologies for an organization to provide intelligent insights, with user and content management features and authorization",
-    tools: "React.js, SCSS, Context API",
+    tools: "React.js, Next.js, TypeScript, React Query, SCSS",
     repo: null,
     url: null,
     img: finance,
@@ -49,16 +48,30 @@ const Projects = [
     img: wordly,
     featured: false,
   },
-  // {
-  //   id: 9,
-  //   title: "Past Portfolio Page",
-  //   details: "My previous website showcasing my skillset and projects",
-  //   tools: "HTML CSS JavaScript",
-  //   repo: "https://github.com/reedwane/reed-portfolio",
-  //   url: "https://reed-projects-portfolio.netlify.app/",
-  //   img: null,
-  //   featured: false,
-  // },
+  {
+    id: 2,
+    title: "Official Websites for Various Organizations",
+    details:
+      "Contributed to the development of numerous websites for local and international organizations.  Collaborated with teams and also worked  individually to ship robust applications to production and improve online presence for businesses and organizations",
+    tools: "React.js, Next.js, SCSS, CSS, REST API",
+    repo: null,
+    url: null,
+    img: officialWeb,
+    featured: false,
+  },
+
+  {
+    id: 3,
+    title: "1st ICEECE & AMF Management Application",
+    details:
+      "An application to manage the events of the 1st ICEECE & AMF in UniIbadan. Built with EJS, Bootstrap, Node.js, Express.js and many more.",
+    tools: "HTML CSS EJS Bootstrap Node.js Express",
+    repo: null,
+    url: null,
+    img: event,
+    featured: true,
+  },
+
   {
     id: 5,
     title: "Space Tourism Website",
@@ -76,8 +89,8 @@ const Projects = [
     details:
       "Want to find out basic details about the countries of the world? This App lays out the various countries of the world and interesting details you'd like to know about them.",
     tools: "React.js CSS",
-    repo: "https://mern-countries-reed.netlify.app/",
-    url: "https://github.com/reedwane/mern-countries-app",
+    repo: "https://github.com/reedwane/mern-countries-app",
+    url: "https://react-countries-reed.netlify.app/",
     img: null,
     featured: false,
   },
