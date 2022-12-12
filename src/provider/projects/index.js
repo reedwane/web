@@ -22,7 +22,8 @@ const Projects = [
       "A startup dedicated to facilitating affordable and seamless processes for Muslims to travel for Hajj & Umrah.",
     tools: "Next.js, CSS, Tailwind CSS, Styled Components, REST API",
     repo: null,
-    url: "https://www.barnaamaj.com/",
+    // url: "https://www.barnaamaj.com/",
+    url: 'https://www.linkedin.com/company/barnaamaj/';
     img: barnaamaj,
     featured: false,
   },
