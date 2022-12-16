@@ -4,7 +4,9 @@ import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
 // Asset
-import resume from "../../assets/Ridwan_Gboyega_Abdulkareem.pdf";
+// import resume from "../../assets/Ridwan_Gboyega_Abdulkareem.pdf";
+let resume =
+  "https://docs.google.com/document/d/1eWxkchqknFR_kzS6epLJAocV-E9xEf57xABXN_Q4gGA/edit?usp=sharing";
 
 const navItems = (handleLink) => (
   <>
