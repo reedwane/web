@@ -10,17 +10,17 @@ const Experience = [
       {
         id: 1,
         details:
-          "Developed robust applications for AI lab projects aimed at helping businesses leverage data science technologies with React Js and other latest front-end development technologies.",
+          "Filled a critical role in the development of a crucial project from its initial stage to a fully functional and integrated product, collaborating effectively with cross-functional teams including ML engineers, developers, and project managers.",
       },
       {
         id: 2,
         details:
-          "Built and contributed to developing full-fledged, dynamic, and responsive websites for various clients with Next Js.",
+          "Adopted new technologies and quickly learnt new ones necessary for the success of various projects, resulting in significant improvements in the overall user experience and reduced time required  before demonstrations to clients by 30%.",
       },
       {
         id: 3,
         details:
-          "Worked with backend engineers and project managers to ensure smooth API integration with frontend applications.",
+          "Boosted the online presence and branding of the company by developing and collaborating on the design of their website as well as a website for a partner, significantly increasing the company's visibility and credibility within the market.",
       },
     ],
     contract: "Contract",
@@ -35,12 +35,19 @@ const Experience = [
     tasks: [
       {
         id: 1,
-        details: "Built components for the startup waitlist.",
+        details:
+          "Accelerated the development of a user-centric website for this leading company dedicated to providing innovative solutions for the Muslim community, with a focus on simplifying the pilgrimage experience.",
       },
       {
         id: 2,
         details:
-          "Collaborated with backend engineers and project managers during development.",
+          "Collaborated with a distributed cross-functional team to design and build the website's frontend, delivering responsive and visually appealing components that enhance user engagement and retention.",
+      },
+
+      {
+        id: 2,
+        details:
+          "Exhibited excellent problem-solving skills in fixing critical bugs and ensuring timely delivery of the website towards the launch date, resulting in a gracious deployment and high user satisfaction.",
       },
     ],
     contract: "Part-time",
@@ -56,17 +63,17 @@ const Experience = [
       {
         id: 1,
         details:
-          "Worked with enterprises and organizations to provide diverse applications with different use cases.  ",
+          "Improved an existing edtech project by overhauling its user interface and enhancing its usability by 40%, as well as implementing critical integrations such as authentication and other backend services, demonstrating strong technical skills and attention to detail.",
       },
       {
         id: 2,
         details:
-          "Collaborated effectively in brainstorming sessions and quick fixes.",
+          "Took the initiative to set up codebases and provided technical support to teams, contributing to the smooth and efficient operation of projects, while also working on websites for startups and organizations, effectively enhancing their online presence and branding.",
       },
       {
         id: 3,
         details:
-          "Developed websites with React JS, EJS, WordPress while producing interfaces as amazing copies of design files.",
+          "Successfully developed and delivered a conference events management app within a tight deadline, showcasing excellent project management skills and the ability to work efficiently under pressure.",
       },
     ],
     contract: "Freelance",

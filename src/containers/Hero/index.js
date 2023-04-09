@@ -12,16 +12,32 @@ const Hero = ({ aos }) => {
       <div data-aos={aos} className="hero-body">
         <div className="body-wrapper">
           <h4>Welcome, I am</h4>
-          <h1>Ridwan Gboyega Abdulkareem.</h1>
-          <h2>
-            I develop amazing things for the web{" "}
+          <h1 title="name">Ridwan Gboyega Abdulkareem.</h1>
+          <h2 title="role">
+            Front-End Engineer and React Developer{" "}
             <span>
               <FaLaptopCode size={50} />
             </span>
           </h2>
+          <span title="caption" className="title_caption">
+            Building innovative and responsive web solutions that drive business
+            growth and exceed client expectations
+          </span>
           <p>
-            I am passionate about making an impact and creating solutions through technology. I have collaborated with different teams and organizations in contributing to excellent product development, and building websites and apps that give businesses the ultimate edge.
-            I will be glad to take on your amazing project too!
+            A growth-driven Front End Developer with a passion for creating
+            innovative and impactful web applications and websites. With my
+            strong focus on collaboration, I thrive in distributed teams of
+            engineers, designers, and other professionals, delivering
+            high-quality solutions that exceed client expectations.
+            <br /> <br />
+            My technical expertise includes using technologies such as React.js,
+            Next.js, JavaScript, TypeScript, React Query, SCSS, HTML, and CSS,
+            and I am always seeking to expand my knowledge and stay ahead of
+            industry trends to provide the most effective and innovative
+            solutions. With a track record of driving business growth and
+            customer satisfaction, I take on important roles in critical
+            projects from inception to successful delivery. Let's work together
+            to create something amazing!
           </p>
           <a href="mailto:ridwangboyega.ak@gmail.com" className="btn btn-hero">
             Send a Message

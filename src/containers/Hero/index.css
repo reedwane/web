@@ -39,6 +39,14 @@
   line-height: 2.34rem;
   color: var(--lightest-slate);
   margin-top: 2rem;
+  text-align: justify;
+}
+
+.title_caption {
+  font-size: 1.4rem;
+  color: var(--lightest-slate);
+  display: inline-block;
+  margin: 1rem 0 1rem;
 }
 
 .hero .btn-hero {
@@ -184,7 +192,7 @@
   }
 
   .hero p {
-    max-width: 54rem;
+    max-width: 70%;
   }
 }
 

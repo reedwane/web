@@ -1,19 +1,22 @@
 import "./index.scss";
 import { useState } from "react";
 import {
-  SiMaterialui,
+  SiMui,
   SiNextdotjs,
   SiTailwindcss,
   SiTypescript,
+  SiReactquery,
 } from "react-icons/si";
-import { RiReactjsLine, RiApps2Fill } from "react-icons/ri";
+import { RiApps2Fill } from "react-icons/ri";
 import {
   FaCss3,
   FaFigma,
-  FaHtml5,
+  FaGithub,
   FaJs,
+  FaNodeJs,
   FaReact,
   FaSass,
+  FaShopify,
 } from "react-icons/fa";
 
 // Asset
@@ -27,17 +30,20 @@ const About = ({ aos }) => {
     { name: "React JS", icon: FaReact },
     { name: "Next Js", icon: SiNextdotjs },
     { name: "Context API", icon: RiApps2Fill },
-    { name: "React Query", icon: RiReactjsLine },
+    { name: "React Query", icon: SiReactquery },
     { name: "JavaScript  (ES6+)", icon: FaJs },
     { name: "Typescript", icon: SiTypescript },
     { name: "SCSS", icon: FaSass },
-    { name: "HTML", icon: FaHtml5 },
+    { name: "Tailwind", icon: SiTailwindcss },
+    { name: "Git & Github", icon: FaGithub },
     { name: "CSS", icon: FaCss3 },
+    { name: "Material UI", icon: SiMui },
   ];
   const comfyStack = [
-    { name: "Material UI", icon: SiMaterialui },
-    { name: "Tailwind", icon: SiTailwindcss },
     { name: "Figma", icon: FaFigma },
+    { name: "REST APIs", icon: FaNodeJs },
+    { name: "Shopify App Extensions", icon: FaShopify },
+    { name: "Node.js", icon: FaNodeJs },
   ];
   const [imgHover, setImgHover] = useState(false);
 
@@ -58,16 +64,18 @@ const About = ({ aos }) => {
       <div className="about-body">
         <div className="about-content">
           <p>
-            I embraced working on web applications shortly after I started my
-            journey in the tech space. I have evolved into a professional front
-            end developer ever since, honing my skills from the various
-            applications I have contributed to building, and my goal is to keep
-            building accessible, robust and diverse projects that provide the
-            best experience for businesses and users.
+            As a frontend Developer, I specialize in creating cutting-edge
+            solutions that meet the unique requirements of each project. I am
+            dedicated to delivering exceptional results every time, and I
+            believe in working closely with clients and stakeholders to ensure
+            their vision is fully realized. I am committed to staying on top of
+            the latest trends and technologies in the industry, and I have a
+            proven track record of adapting quickly to new challenges and
+            opportunities.
           </p>
           <p>Below is the list of the technologies I use:</p>
           <div className="my-stack">{displayStackList(stack)}</div>
-          <p>I have also worked with:</p>
+          <p>I have some amount of experience with:</p>
           <div className="my-stack">{displayStackList(comfyStack)}</div>
         </div>
         <div

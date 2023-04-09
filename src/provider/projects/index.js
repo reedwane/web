@@ -3,35 +3,45 @@ import officialWeb from "assets/official_websites.jpg";
 import finance from "assets/finance_cms.jpg";
 import wordly from "assets/wordly.jpg";
 import mbz from "assets/mbz.png";
+import atc from "assets/atc.png";
 import barnaamaj from "assets/barnaamaj.jfif";
 
 const Projects = [
+  {
+    title: "ATC",
+    details:
+      "Revamped an edtech platform by redesigning the user interface, resulting in a 40% improvement in usability. Additionally, integrated vital backend services, including authentication, showcasing technical expertise and meticulous attention to detail.",
+    tools: "Next.js, SCSS, REST API, React Query",
+    repo: null,
+    url: "https://www.atc.com.ng/",
+    img: atc,
+    featured: false,
+  },
+  {
+    title: "Barnaamaj",
+    details:
+      "Collaborated with a distributed cross-functional team to design and build the website's frontend, delivering responsive and visually appealing components that enhance user engagement and retention.",
+    tools: "Next.js, React Query, Tailwind CSS, Styled Components, REST API",
+    repo: null,
+    url: "https://www.barnaamaj.com/",
+    img: barnaamaj,
+    featured: false,
+  },
   {
     title: "MSSN B-ZONE Website",
     details:
       "Worked on the development of the official website for MSSN B-Zone, one of the largest student organizations in Nigeria.",
     tools: "React.js, Next.js, SCSS, CSS, REST API",
     repo: null,
-    url: "https://mssnbzone.org/",
+    // url: "https://mssnbzone.org/",
     img: mbz,
     featured: false,
   },
   {
-    title: "Barnaamaj",
-    details:
-      "A startup dedicated to facilitating affordable and seamless processes for Muslims to travel for Hajj & Umrah.",
-    tools: "Next.js, CSS, Tailwind CSS, Styled Components, REST API",
-    repo: null,
-    url: "https://www.barnaamaj.com/",
-    // url: "https://www.linkedin.com/company/barnaamaj/",
-    img: barnaamaj,
-    featured: false,
-  },
-  {
     id: 1,
-    title: "FinTech Software leveraging on Machine learning Technologies",
+    title: "Custom Software leveraging on Machine learning Technologies",
     details:
-      "A Robust fintech software harnessing Data Science technologies for an organization to provide intelligent insights, with user and content management features and authorization",
+      "A Robust software harnessing Data Science technologies for an organization to provide intelligent insights, with user and content management features and authorization",
     tools: "React.js, Next.js, TypeScript, React Query, SCSS",
     repo: null,
     url: null,
@@ -51,9 +61,9 @@ const Projects = [
   },
   {
     id: 2,
-    title: "Official Websites for Various Organizations",
+    title: "Custom Applications for Various Organizations",
     details:
-      "Contributed to the development of numerous websites for local and international organizations.  Collaborated with teams and also worked  individually to ship robust applications to production and improve online presence for businesses and organizations",
+      "Contributed to the development of applications for local and international organizations.  Collaborated with teams and also worked  individually to ship robust applications to production and improve online presence for businesses and organizations",
     tools: "React.js, Next.js, SCSS, CSS, REST API",
     repo: null,
     url: null,
