@@ -1,3 +1,3 @@
 # My Personal Website
 
-for more information, visit [reedwane.com](www.reedwane.com)
+for more information, visit [reedwane.com](https://www.reedwane.com)
