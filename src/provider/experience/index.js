@@ -58,7 +58,7 @@ const Experience = [
     company: null,
     url: "",
     startDate: "October 2021",
-    endDate: "Present",
+    endDate: "November 2022",
     tasks: [
       {
         id: 1,
