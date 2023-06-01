@@ -20,7 +20,7 @@ const Experience = [
       {
         id: 3,
         details:
-          "Boosted the online presence and branding of the company by developing and collaborating on the design of their website as well as a website for a partner, significantly increasing the company's visibility and credibility within the market.",
+          "Contributed to the development of concepts and projects, enhancing the online presence and branding of the company and its partners. Played a key role in improving visibility and credibility within the market.",
       },
     ],
     contract: "Contract",
