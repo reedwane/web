@@ -30,14 +30,10 @@ const Hero = ({ aos }) => {
             engineers, designers, and other professionals, delivering
             high-quality solutions that exceed client expectations.
             <br /> <br />
-            My technical expertise includes using technologies such as React.js,
-            Next.js, JavaScript, TypeScript, React Query, SCSS, HTML, and CSS,
-            and I am always seeking to expand my knowledge and stay ahead of
-            industry trends to provide the most effective and innovative
-            solutions. With a track record of driving business growth and
-            customer satisfaction, I take on important roles in critical
-            projects from inception to successful delivery. Let's work together
-            to create something amazing!
+            With a track record of driving business growth and customer
+            satisfaction, I take on important roles in critical projects from
+            inception to successful delivery. Let's work together to create
+            something amazing!
           </p>
           <a href="mailto:ridwangboyega.ak@gmail.com" className="btn btn-hero">
             Send a Message

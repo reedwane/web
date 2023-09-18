@@ -10,7 +10,7 @@ import Experience from "../../provider/experience";
 
 const WorkedAt = ({ aos }) => {
   const [focus, setFocus] = useState(false);
-  const [currentId, setCurrentId] = useState(1);
+  const [currentId, setCurrentId] = useState(0);
 
   const toggleCompany = (id) => {
     setCurrentId(id);

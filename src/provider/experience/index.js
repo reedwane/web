@@ -1,26 +1,52 @@
 const Experience = [
   {
-    id: 1,
+    id: 0,
     title: "Front End Developer",
-    company: "Hamoye Technologies Inc",
+    company: "TopRateTransfer",
     url: null,
-    startDate: "May 2022",
+    startDate: "June 2023",
     endDate: "Present",
     tasks: [
       {
         id: 1,
         details:
-          "Filled a critical role in the development of a crucial project from its initial stage to a fully functional and integrated product, collaborating effectively with cross-functional teams including ML engineers, developers, and project managers.",
+          "Spearheading the overhaul of the company's fintech solution's frontend using Next.js and React, collaborating seamlessly with backend developers and designers to elevate user experiences.",
       },
       {
         id: 2,
         details:
-          "Adopted new technologies and quickly learnt new ones necessary for the success of various projects, resulting in significant improvements in the overall user experience and reduced time required  before demonstrations to clients by 30%.",
+          "Seamlessly integrating APIs to enhance system functionality and performance, ensuring efficient communication between frontend and backend systems.",
       },
       {
         id: 3,
         details:
-          "Contributed to the development of concepts and projects, enhancing the online presence and branding of the company and its partners. Played a key role in improving visibility and credibility within the market.",
+          "Collaborating closely with cross-functional teams to drive innovation and deliver a cutting-edge fintech solution, optimizing the company's web presence.",
+      },
+    ],
+    contract: "Contract",
+  },
+  {
+    id: 1,
+    title: "Front End Developer",
+    company: "Hamoye Technologies Inc",
+    url: null,
+    startDate: "May 2022",
+    endDate: "June 2023",
+    tasks: [
+      {
+        id: 1,
+        details:
+          "Led critical project development from inception to a fully integrated product, collaborating cross-functionally with ML engineers, developers, and project managers.",
+      },
+      {
+        id: 2,
+        details:
+          "Adapted swiftly to new technologies, boosting overall user experience and accelerating client demonstrations by 30%.",
+      },
+      {
+        id: 3,
+        details:
+          "Drove concept development, elevating online presence, and credibility for the company and partners, enhancing market visibility.",
       },
     ],
     contract: "Contract",
@@ -31,7 +57,7 @@ const Experience = [
     company: "Barnaamaj",
     url: null,
     startDate: "November 2022",
-    endDate: "Present",
+    endDate: "April 2023",
     tasks: [
       {
         id: 1,
