@@ -14,26 +14,21 @@ const Hero = ({ aos }) => {
           <h4>Welcome, I am</h4>
           <h1 title="name">Ridwan Gboyega Abdulkareem.</h1>
           <h2 title="role">
-            Front-End Engineer and React Developer{" "}
+            Front-End Engineer
             <span>
               <FaLaptopCode size={50} />
             </span>
           </h2>
           <span title="caption" className="title_caption">
-            Building innovative and responsive web solutions that drive business
-            growth and exceed client expectations
+            Building innovative solutions that drive business growth and exceed
+            expectations
           </span>
           <p>
-            A growth-driven Front End Developer with a passion for creating
-            innovative and impactful web applications and websites. With my
-            strong focus on collaboration, I thrive in distributed teams of
-            engineers, designers, and other professionals, delivering
-            high-quality solutions that exceed client expectations.
-            <br /> <br />
-            With a track record of driving business growth and customer
-            satisfaction, I take on important roles in critical projects from
-            inception to successful delivery. Let's work together to create
-            something amazing!
+            As a results-driven front-end engineer proficient in React.js,
+            Next.js, JavaScript, TypeScript, and more, I collaborate on critical
+            projects, working seamlessly with cross-functional teams to deliver
+            innovative and responsive solutions. Passionate about staying
+            current with technology trends and driving business growth.
           </p>
           <a href="mailto:ridwangboyega.ak@gmail.com" className="btn btn-hero">
             Send a Message
@@ -46,7 +41,7 @@ const Hero = ({ aos }) => {
             <a href="https://github.com/reedwane">
               <FiGithub className="horizontal-icon" />
             </a>
-            <a href="https://twitter.com/Reed_tope?s=09">
+            <a href="https://twitter.com/RidwanGboyegaAK">
               <FiTwitter className="horizontal-icon" />
             </a>
             <a href="https://www.linkedin.com/in/ridwan-abdulkareem/">

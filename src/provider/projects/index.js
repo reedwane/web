@@ -60,19 +60,10 @@ const Projects = [
     img: atc,
     featured: false,
   },
-  {
-    title: "MSSN B-ZONE Website",
-    details:
-      "Worked on the development of the official website for MSSN B-Zone, one of the largest student organizations in Nigeria.",
-    tools: "React.js, Next.js, SCSS, CSS, REST API",
-    repo: null,
-    // url: "https://mssnbzone.org/",
-    img: mbz,
-    featured: false,
-  },
+
   {
     id: 1,
-    title: "Custom Software leveraging on Machine learning Technologies",
+    title: "Enterprise Software leveraging on Machine learning Technologies",
     details:
       "A Robust software harnessing Data Science technologies for an organization to provide intelligent insights, with user and content management features and authorization",
     tools: "React.js, Next.js, TypeScript, React Query, SCSS",
@@ -93,17 +84,16 @@ const Projects = [
     featured: false,
   },
   {
-    id: 2,
-    title: "Custom Applications for Various Organizations",
+    id: 5,
+    title: "Space Tourism Website",
     details:
-      "Contributed to the development of applications for local and international organizations.  Collaborated with teams and also worked  individually to ship robust applications to production and improve online presence for businesses and organizations",
-    tools: "React.js, Next.js, SCSS, CSS, REST API",
-    repo: null,
-    url: null,
-    img: officialWeb,
+      "A multi-page, dynamic and space-themed website. Developed the project to excellently resemble the Figma designs with React Js and styled with SCSS. Built fully responsive (mobile-first)",
+    tools: "React.js Context API SCSS",
+    repo: "https://github.com/reedwane/space-tourism",
+    url: "https://space-tourism-reed.netlify.app/",
+    img: null,
     featured: false,
   },
-
   {
     id: 3,
     title: "1st ICEECE & AMF Management Application",
@@ -116,17 +106,6 @@ const Projects = [
     featured: true,
   },
 
-  {
-    id: 5,
-    title: "Space Tourism Website",
-    details:
-      "A multi-page, dynamic and space-themed website. Developed the project to excellently resemble the Figma designs with React Js and styled with SCSS. Built fully responsive (mobile-first)",
-    tools: "React.js Context API SCSS",
-    repo: "https://github.com/reedwane/space-tourism",
-    url: "https://space-tourism-reed.netlify.app/",
-    img: null,
-    featured: false,
-  },
   {
     id: 6,
     title: "Countries App",

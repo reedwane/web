@@ -36,17 +36,17 @@ const Experience = [
       {
         id: 1,
         details:
-          "Spearheading the overhaul of the company's fintech solution's frontend using Next.js and React, collaborating seamlessly with backend developers and designers to elevate user experiences.",
+          "Transformed the company's fintech web app, migrating it to a modern micro-services system with Next.js and React for an enhanced user experience.",
       },
       {
         id: 2,
         details:
-          "Seamlessly integrating APIs to enhance system functionality and performance, ensuring efficient communication between frontend and backend systems.",
+          "Streamlined system communication, achieving seamless integration and optimizing landing pages for improved SEO, boosting company visibility.",
       },
       {
         id: 3,
         details:
-          "Collaborating closely with cross-functional teams to drive innovation and deliver a cutting-edge fintech solution, optimizing the company's web presence.",
+          "Played a key role in enhancing the company's fintech web presence and contributing significantly to strategic business decisions.",
       },
     ],
     contract: "Contract",
@@ -72,7 +72,7 @@ const Experience = [
       {
         id: 3,
         details:
-          "Drove concept development, elevating online presence, and credibility for the company and partners, enhancing market visibility.",
+          "Drove concept development, enhancing online presence and credibility for the company and partners.",
       },
     ],
     contract: "Contract",
