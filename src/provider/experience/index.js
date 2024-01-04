@@ -1,6 +1,32 @@
 const Experience = [
   {
     id: 0,
+    title: "Co-Founder",
+    company: "Rifaaq",
+    url: "https://rifaaq.com",
+    startDate: "August 2023",
+    endDate: "Present",
+    tasks: [
+      {
+        id: 1,
+        details:
+          "Co-founded Rifaaq in August 2023 and played a pivotal role in the development of Acco-Rifaaq and other projects for clients.",
+      },
+      {
+        id: 2,
+        details:
+          "Led the project and development teams to deliver 4 outstanding websites and a fully functional PWA within the 3 months.",
+      },
+      {
+        id: 3,
+        details:
+          "Single-handedly built the UI of the productivity app as a PWA, which reached over a thousand users within 2 months.",
+      },
+    ],
+    contract: "Startup",
+  },
+  {
+    id: 0,
     title: "Front End Developer",
     company: "TopRateTransfer",
     url: null,
@@ -83,7 +109,7 @@ const Experience = [
     title: "Frontend Developer",
     company: null,
     url: "",
-    startDate: "October 2021",
+    startDate: "January 2021",
     endDate: "November 2022",
     tasks: [
       {

@@ -18,7 +18,7 @@ const WorkedAt = ({ aos }) => {
   };
 
   const { title, company, url, startDate, endDate, tasks, contract } =
-    Experience.find((data) => data.id === currentId);
+    Experience.find((data, idx) => idx === currentId);
 
   return (
     <section data-aos={aos} className="experience-section" id="experience">
@@ -26,8 +26,8 @@ const WorkedAt = ({ aos }) => {
       <div className="experience-body">
         <div className="company-list">
           <ul>
-            {Experience.map((value) => {
-              const { id, company } = value;
+            {Experience.map((value, id) => {
+              const { company } = value;
               const noFocus = id === currentId ? "active" : null;
               return (
                 <li

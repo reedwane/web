@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="https://github.com/reedwane">
           <FiGithub size={21} className="small-icon" />
         </a>
-        <a href="https://twitter.com/Reed_tope?s=09">
+        <a href="https://twitter.com/RidwanGboyegaAK">
           <FiTwitter size={21} className="small-icon" />
         </a>
         <a href="https://www.linkedin.com/in/ridwan-abdulkareem/">

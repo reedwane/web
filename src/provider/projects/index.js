@@ -4,18 +4,41 @@ import finance from "assets/finance_cms.jpg";
 import wordly from "assets/wordly.jpg";
 import mbz from "assets/mbz.png";
 import atc from "assets/atc.png";
+import acco from "assets/acco.png";
+import zulaiy from "assets/zulaiy.png";
+import acmf from "assets/acmf.png";
 import barnaamaj from "assets/barnaamaj.jfif";
 
 const Projects = [
   {
-    title: "ATC",
+    title: "Acco-Rifaaq App",
     details:
-      "Revamped an edtech platform by redesigning the user interface, resulting in a 40% improvement in usability. Additionally, integrated vital backend services, including authentication, showcasing technical expertise and meticulous attention to detail.",
-    tools: "Next.js, SCSS, REST API, React Query",
+      "A unique productivity app initially built for Muslims, with extraordinary features including data analytics and accountability partnerships.",
+    tools: "Next.js, React Query, PWA, Tailwind CSS",
     repo: null,
-    url: "https://www.atc.com.ng/",
-    img: atc,
-    featured: false,
+    url: "https://acco.rifaaq.com/",
+    img: acco,
+    featured: true,
+  },
+  {
+    title: "Zulaiy",
+    details:
+      "An agency that propels businesses towards innovation and growth using technology.",
+    tools: "Wordpress",
+    repo: null,
+    url: "https://zulaiy.com/",
+    img: zulaiy,
+    featured: true,
+  },
+  {
+    title: "ACMF",
+    details:
+      "A foundation on a mission to provide youths with the tools, mentorship, and opportunities they need to turn their dreams into reality.",
+    tools: "Next.js, Tailwind CSS",
+    repo: null,
+    url: "https://acmfng.org/",
+    img: acmf,
+    featured: true,
   },
   {
     title: "Barnaamaj",
@@ -25,6 +48,16 @@ const Projects = [
     repo: null,
     url: "https://www.barnaamaj.com/",
     img: barnaamaj,
+    featured: false,
+  },
+  {
+    title: "ATC",
+    details:
+      "Revamped an edtech platform by redesigning the user interface, resulting in a 40% improvement in usability. Additionally, integrated vital backend services, including authentication, showcasing technical expertise and meticulous attention to detail.",
+    tools: "Next.js, SCSS, REST API, React Query",
+    repo: null,
+    // url: "https://www.atc.com.ng/",
+    img: atc,
     featured: false,
   },
   {
